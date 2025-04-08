@@ -24,3 +24,12 @@
     margin-left: 5px;
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url(./../Letra/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: "Roboto_Mono";
+}
+
