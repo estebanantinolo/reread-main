@@ -1,0 +1,26 @@
+.fondoverde {
+    background-color: rgb(1, 144, 96);
+    color: white;
+    text-align: center;
+}
+
+.encabezado {
+    background-color: rgb(1, 144, 96);
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+}
+
+.texto {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.margen2 {
+    margin-left: 5px;
+}
+
