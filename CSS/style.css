@@ -1,3 +1,4 @@
+/* fondos de colores */
 .fondoverde {
     background-color: rgb(1, 144, 96);
     color: white;
@@ -9,6 +10,7 @@
     color: white;
 }
 
+/* Margenes */
 .titulo {
     text-align: center;
     font-size: 50px;
@@ -24,12 +26,46 @@
     margin-left: 5px;
 }
 
+/* Tipografia */
 @font-face {
-    font-family: Roboto;
-    src: url(./../Letra/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf);
+    font-family: RobotoMono-VariableFont;
+    src: url(./../Letra/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
 }
 
-body {
-    font-family: "Roboto_Mono";
+.body {
+    font-family: "RobotoMono-VariableFont";
 }
 
+.img_libro {
+    width: 50%;
+    height: 50%;
+}
+
+.imgmargen {
+    align-items: center;
+}
+
+#contact-tab-pane {
+    margin-left: 10%;
+    text-align: left;
+}
+
+
+
+#home-tab-pane {
+    margin-left: 10%;
+    text-align: left;
+}
+
+
+
+#profile-tab-pane {
+    margin-left: 10%;
+    text-align: left;
+}
+
+
+.imagenlibro {
+    display: flex;
+    width: 15%;
+}
